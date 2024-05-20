@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>184 DOM Javascript</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>Pendaftaran Peminatan</h3>
+        </div>
+        <form action="">
+            <label for="">Nama</label><br>
+            <input type="text" placeholder="Masukkan nama Anda" id="nama"><br><br>
+
+            <label for="">NIM</label><br>
+            <input type="text" placeholder="Masukkan NIM Anda" id="nim"><br><br>
+
+            <p>Bidang Peminatan :</p>
+
+            <input type="radio" name="peminatan" id="programming" value="programming">
+            <label for="programming">Pemrogaman</label><br>
+
+            <input type="radio" name="peminatan" id="jaringan" value="jaringan">
+            <label for="programming">Jaringan</label><br>
+
+            <input type="radio" name="peminatan" id="data" value="data">
+            <label for="programming">Data</label><br>
+
+            <input type="radio" name="peminatan" id="design" value="design">
+            <label for="programming">Design</label><br><br>
+
+            <label for="">Alamat</label><br>
+            <textarea name="alamat" id="alamat" placeholder="Masukkan alamat lengkap anda" 
+            cols="30" role="5"></textarea><br><br>
+
+            <label for="angkatan">Pilih Angkatan</label>
+            <select id="angkatan" name="angkatan">
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+            </select><br><br>
+
+            <label for="tanggal">Tanggal</label>
+            <input type="date" id="tanggal" name="tanggal" value="2023-06-10"><br><br>
+
+            <div class="button1">
+                <button type="button" onclick="kirimData()">Kirim</button>
+            </div>
+            
+
+        </form>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
